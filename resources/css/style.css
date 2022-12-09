@@ -1,0 +1,29 @@
+nav {
+  padding: 0 1.5em;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  margin: 0 0.5em;
+}
+
+#icon {
+  display: none;
+}
+
+#logo {
+  display: flex;
+  height: 2em;
+  align-items: center;
+}
+
+#gray {
+  color: gray;
+}
