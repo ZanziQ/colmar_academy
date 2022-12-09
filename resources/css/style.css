@@ -94,19 +94,23 @@ button {
 .ad_container {
   display: flex;
   padding: 1em;
-  justify-content: space-between;
+  box-shadow: 2px 2px 2px lightgray;
 }
 
 .ad_img {
   width: 35%;
+  margin-right: 1em;
 }
 
 .ad_container img {
   width: 100%;
   height: auto;
-  box-sizing: border-box;
 }
 
 #gray_background {
   background-color: lightgray;
+}
+
+.section_b a {
+  color: blue;
 }
