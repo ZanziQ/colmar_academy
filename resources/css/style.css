@@ -53,12 +53,17 @@ a {
   flex-direction: column;
   justify-content: center;
   padding-right: 1.5em;
-  width: 40%;
+  width: 30%;
+}
+
+.button {
+  width: 60%;
+  display: flex;
 }
 
 button {
   background-color: dimgray;
-  width: 80%;
+  width: 100%;
   padding: 0.5em 0;
   color: white;
   border: none;
@@ -113,4 +118,34 @@ button {
 
 .section_b a {
   color: blue;
+}
+
+.section_c {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 4.5em;
+}
+
+.subjects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course {
+  box-sizing: border-box;
+  width: 30%;
+  background-color: white;
+  margin: 1em;
+}
+
+.img img {
+  height: auto;
+  width: 100%;
+}
+
+.course_text {
+  padding: 1em 3em 1.5em 1em;
 }
