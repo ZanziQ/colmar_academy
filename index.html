@@ -12,13 +12,13 @@
     <nav>
       <div id="logo">
         <img src="./resources/images/ic-logo.svg" alt="logo" />
-        COLMAR
-        <p id="gray">ACADEMY</p>
+        <p class="hide">COLMAR</p>
+        <p class="hide" id="gray">ACADEMY</p>
       </div>
       <ul>
         <a href=""
           ><li>
-            <p>Campus</p>
+            <p class="hide">Campus</p>
             <img
               id="icon"
               src="./resources/images/ic-on-campus.svg"
@@ -27,7 +27,7 @@
         ></a>
         <a href=""
           ><li>
-            <p>Online</p>
+            <p class="hide">Online</p>
             <img
               id="icon"
               src="./resources/images/ic-online.svg"
@@ -35,11 +35,11 @@
             /></li
         ></a>
         <a href=""
-          ><li><p>Our Companies</p></li></a
+          ><li><p class="hide">Our Companies</p></li></a
         >
         <a href=""
           ><li>
-            <p>Sign in</p>
+            <p class="hide">Sign in</p>
             <img
               id="icon"
               src="./resources/images/ic-login.svg"
@@ -85,7 +85,17 @@
       <div class="right">
         <div class="ad_container">
           <div class="ad_img">
-            <img src="./resources/images/information-orientation.jpg" alt="" />
+            <img
+              id="desktop"
+              src="./resources/images/information-orientation.jpg"
+              alt=""
+            />
+            <img
+              id="mobile"
+              src="./resources/images/information-orientation-mobile.jpg
+            "
+              alt=""
+            />
           </div>
           <div>
             <h3>Orientation date</h3>
@@ -95,7 +105,16 @@
         </div>
         <div class="ad_container">
           <div class="ad_img">
-            <img src="./resources/images/information-campus.jpg" alt="" />
+            <img
+              id="desktop"
+              src="./resources/images/information-campus.jpg"
+              alt=""
+            />
+            <img
+              id="mobile"
+              src="./resources/images/information-campus-mobile.jpg"
+              alt=""
+            />
           </div>
           <div>
             <h3>Our campus</h3>
@@ -106,7 +125,13 @@
         <div class="ad_container" id="gray_background">
           <div class="ad_img">
             <img
+              id="desktop"
               src="./resources/images/information-guest-lecture.jpg"
+              alt=""
+            />
+            <img
+              id="mobile"
+              src="./resources/images/information-guest-lecture-mobile.jpg"
               alt=""
             />
           </div>
@@ -198,15 +223,15 @@
           <div class="video_container">
             <video src="./resources/videos/thesis.mp4" controls></video>
           </div>
-          <h3>Reimagine urban</h3>
-          <p>
+          <h3 id="hide">Reimagine urban</h3>
+          <p id="hide">
             "Curbitur vitae libero in ipsum porttitor consequant. Aliquam et
             commodo lectus, nec consequant neque. sednon accumasan urna.
             Phasellus sed consequant ex. Etiam eget magna laoreet, efficitur
             dolor consequat tristique ligula."
           </p>
         </div>
-        <div class="right">
+        <div id="hide" class="right">
           <div class="thesis" id="gray_background">
             <div class="thesis_img">
               <img src="./resources/images/thesis-fisma.jpg" alt="" />
